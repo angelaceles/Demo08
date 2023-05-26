@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+    
+    <StackLayout>
+        <Label Text="Mi primer texto" Style="{StaticResource Style1}"></Label>
+        <Label Text="Mi segundo texto" Style="{StaticResource Style1}"></Label>
+        <Button Text="Prueba Sin estilo"></Button>
+        <Label Text="Mi tercer texto"></Label>
+        <Label Text="mi cuarto texto"></Label>
+        <Label Text="mi cuarto texto"></Label>
+        <Button Text="Prueba" Style="{StaticResource Style2}"></Button>
+    </StackLayout>
+
+</ContentPage>
